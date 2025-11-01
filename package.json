@@ -1,0 +1,34 @@
+{
+  "name": "nome-do-projeto-backend",
+  "version": "1.0.0",
+  "description": "Backend para upload de vídeos no YouTube",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "googleapis": "^164.1.0",
+    "multer": "^2.0.2",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belcionhanombe/biblioteca-UpladVideo-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/belcionhanombe/biblioteca-UpladVideo-/issues"
+  },
+  "homepage": "https://github.com/belcionhanombe/biblioteca-UpladVideo-#readme"
+}
